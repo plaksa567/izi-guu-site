@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ИЗИ-ГУУ — независимый студенческий путеводитель по Государственному университету управления.">
+<title>ИЗИ-ГУУ — студенческий путеводитель</title>
+<style>
+:root{--bg:#101b30;--paper:#fff;--ink:#1e2835;--muted:#687384;--line:#e5e8eb;--blue:#2457d6;--blue2:#e9efff;--lime:#d9f274;--orange:#ff805c;--soft:#f0f2f5;--shadow:0 12px 34px #202b3d0b;--radius:18px;--sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;overflow-x:hidden;background-color:var(--bg);background-image:linear-gradient(180deg,rgba(10,30,56,.69) 0%,rgba(11,28,53,.73) 28%,rgba(12,25,46,.78) 58%,rgba(14,26,47,.75) 82%,rgba(16,27,48,.72) 100%),url("images/guu-campus2.jpg");background-repeat:no-repeat,no-repeat;background-position:center center,center center;background-size:100% 100%,cover;background-attachment:fixed,fixed;color:#f5f8ff;font:15px/1.55 var(--sans)}button,input,select,textarea{font:inherit}button,a{cursor:pointer}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 44px));margin:0 auto}.announcement{background:var(--ink);color:#f6f5f1;font:10px var(--sans);letter-spacing:.04em}.announcement .wrap{height:34px;display:flex;align-items:center;justify-content:space-between;gap:15px}.account-link{background:none;border:0;color:var(--lime);font-weight:700;font-size:11px}.site-header{position:sticky;top:0;z-index:4;background:rgba(12,25,45,.9);backdrop-filter:blur(15px);border-bottom:1px solid #ffffff24;color:#f5f8ff}.headrow{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{color:#f5f8ff;font-weight:900;letter-spacing:-1.7px;font-size:25px;white-space:nowrap}nav{display:flex;align-items:center;gap:25px}nav a{font-size:12px;color:#dce6f6;font-weight:650}nav a:hover{color:var(--lime)}.mobile-nav{display:none}.hero{display:block;width:100vw;max-width:100vw;margin-left:calc(50% - 50vw);padding:0 0 34px}.hero-main{position:relative;min-height:540px;padding:76px max(44px,calc((100vw - 1160px)/2)) 88px;border-radius:0;background-image:linear-gradient(90deg,rgba(10,31,63,.78) 0%,rgba(12,38,72,.70) 34%,rgba(13,44,82,.48) 68%,rgba(13,44,82,.18) 100%);background-position:center;background-size:cover;color:white;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.pill{display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border-radius:999px;background:#ffffff20;font-size:10px;font-weight:750;letter-spacing:.05em;text-transform:uppercase}.pill:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--lime)}h1{font-size:clamp(58px,8.5vw,108px);line-height:.96;letter-spacing:-.065em;margin:24px 0 17px;max-width:1220px}.hero-main p{font-size:19px;line-height:1.5;color:#edf3ff;max-width:740px;margin:0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:11px 15px;background:var(--ink);color:white;border:0;border-radius:10px;font-size:12px;font-weight:750;transition:.18s}.btn:hover{background:#34445a;transform:translateY(-1px)}.btn.primary{background:var(--lime);color:var(--ink)}.btn.primary:hover{background:#e5ff8a}.btn.outline{background:transparent;color:var(--ink);border:1px solid var(--line)}.btn.outline:hover{border-color:var(--blue);color:var(--blue);background:white}#moderationQueue{background:#d9f274;color:#17243c;border-color:#d9f274;white-space:nowrap}#moderationQueue:hover{background:#e5ff8a;color:#17243c;border-color:#e5ff8a}.hero-art{position:absolute;width:32%;right:-7%;bottom:-9%;opacity:.38;pointer-events:none}.hero-main h1,.hero-main p,.hero-main .pill,.hero-main .btn{position:relative;z-index:1}.hero-side{display:grid;grid-template-rows:1fr 1fr;gap:16px}.hero-card{position:relative;padding:25px 26px;border-radius:var(--radius);overflow:hidden;min-height:175px}.hero-card.bluewash{background:var(--blue2)}.hero-card.limewash{background:var(--lime)}.hero-card .eyebrow,.eyebrow{font:750 10px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.hero-card h2{font-size:24px;line-height:1.1;letter-spacing:-.8px;max-width:310px;margin:12px 0 7px}.hero-card p{font-size:13px;color:#536074;margin:0;max-width:330px}.hero-card .arrow{position:absolute;right:20px;bottom:18px;font-size:22px;color:var(--blue)}.quicklinks{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}.quicklinks span{padding:5px 9px;border-radius:999px;background:#ffffff9c;font-size:10px;font-weight:700}.section{padding:32px 0 23px;scroll-margin-top:95px}.section-top{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:16px}.section-title{color:#f5f8ff;margin:0;font-size:clamp(27px,4vw,36px);line-height:1.05;letter-spacing:-1.4px}.section-kicker{font-size:11px;color:#b8c4d6;margin:6px 0 0}.text-link{color:#bfd0ff;font-size:12px;font-weight:750;white-space:nowrap}.instituteGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.institute-card{color:var(--ink);position:relative;overflow:hidden;min-height:173px;padding:18px;border:1px solid var(--line);background:var(--paper);border-radius:18px;text-align:left;transition:.2s;display:flex;flex-direction:column;align-items:flex-start}.institute-card:hover,.institute-card.active{background:white;border-color:#c7d3fc;box-shadow:var(--shadow);transform:translateY(-2px)}.institute-art{display:block;width:100%;height:110px;object-fit:cover;border-radius:12px;margin-bottom:11px}.inst-abbr{display:block;margin:0 0 4px;color:var(--blue);font-size:10px;font-weight:850;letter-spacing:.12em}.institute-card h3{font-size:16px;line-height:1.22;letter-spacing:-.3px;margin:0 28px 5px 0}.institute-card p{font-size:14px;color:var(--muted);line-height:1.5;margin:0 10px 0 0}.inst-arrow{position:absolute;right:16px;bottom:15px;color:#9ca5b3;font-size:16px}.instPanel{display:none;margin-top:12px;padding:24px;background:white;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}.instPanel.open{color:var(--ink);display:block;animation:arrive .22s ease-out}@keyframes arrive{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}.instPanel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}.instPanel-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.instPanel h3{font-size:22px;line-height:1.15;letter-spacing:-.7px;margin:4px 0 0}.inst-detail{display:grid;grid-template-columns:1fr 250px;gap:25px;margin-top:18px}.inst-description{font-size:17px;line-height:1.65;color:#4e5a69;max-width:740px}.inst-topics{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0}.topic{padding:8px 12px;background:var(--soft);border-radius:999px;color:#465469;font-size:13px;font-weight:700}.inst-side{padding:16px;border-radius:13px;background:#f5f7fa}.inst-side b{display:block;margin-bottom:5px}.inst-side p{margin:0;color:var(--muted);font-size:15px;line-height:1.5}.inst-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px}.tabs{display:flex;gap:7px;margin-top:20px;border-bottom:1px solid var(--line)}.tab{padding:9px 13px;background:transparent;border:0;color:var(--muted);font-size:12px;font-weight:750}.tab.active{color:var(--blue);box-shadow:inset 0 -2px var(--blue)}.studEmpty{padding:17px 0;color:#b8c4d6;font-size:13px}.teacher-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0}.search{width:min(310px,100%);padding:10px 13px;border:1px solid var(--line);border-radius:10px;background:white;outline:none;font-size:12px}.search:focus{border-color:var(--blue)}.teacher-select{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink);font-size:12px;outline:none}.teacher-select:focus{border-color:var(--blue)}.filter-label{font-size:11px;color:#c4cede}.teacherGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.teacher{color:var(--ink);display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:white;transition:.2s;cursor:pointer}.teacher:hover,.teacher:focus-visible{box-shadow:var(--shadow);transform:translateY(-2px);outline:none}.teacher-photo{height:210px;background:#e8edf4;overflow:hidden;position:relative}.teacher-photo img{width:100%;height:100%;object-fit:cover;object-position:center 28%;display:block}.teacher-photo img.teacher-placeholder{object-fit:contain;background:#fff}.teacher-photo .photo-source{position:absolute;bottom:9px;left:9px;padding:5px 7px;background:#172331bb;color:white;border-radius:6px;font-size:9px}.teacher-body{padding:14px}.teacher h3{font-size:16px;line-height:1.2;margin:0 0 5px;letter-spacing:-.3px}.teacher-role{color:var(--muted);font-size:11px;min-height:32px}.teacher-meta{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}.no-score{color:#788393;font-size:10px}.rating-empty{display:inline-flex;align-items:center;gap:5px;color:#9b6b00;font-size:10px;font-weight:700}.teacher .btn{padding:8px 10px;font-size:10px}#teacherMore{display:block;margin:16px auto 0;padding:12px 22px;background:#d9f274;border:1px solid #d9f274;color:#17243c;font-size:14px;font-weight:800}#teacherMore:hover,#teacherMore:focus-visible{background:#e5ff8a;border-color:#e5ff8a;color:#17243c;transform:translateY(-1px)}.teacherNote{font-size:11px;color:#b8c4d6;margin:15px 0 0}.rating-intro{display:block}.map-layout{display:grid;grid-template-columns:1.3fr .7fr;gap:14px}.mapbox{overflow:hidden;background:#eaf0e8;border-radius:18px;border:1px solid #d9e3d6}.mapbox{height:440px}#campusMap{width:100%;height:100%;min-height:320px}.mapInfo{color:var(--ink);padding:22px;background:white;border:1px solid var(--line);border-radius:18px;min-height:250px}.mapInfo h3{font-size:20px;line-height:1.15;margin:8px 0}.mapInfo p{font-size:13px;color:var(--muted)}.mapPin{cursor:pointer}.mapPin circle{fill:var(--blue);stroke:white;stroke-width:3;transition:.15s}.mapPin text{font:800 12px var(--sans);fill:white;text-anchor:middle;dominant-baseline:central}.mapPin:hover circle{fill:var(--orange)}.map-disclaimer{font-size:10px;color:#b8c4d6;margin:11px 0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.about-card{color:var(--ink);padding:20px;background:white;border:1px solid var(--line);border-radius:18px}.about-card h3{font-size:17px;margin:0 0 8px}.about-card p{font-size:12px;color:var(--muted);margin:0}.footer{margin-top:34px;padding:26px 0;background:#091426;color:white}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}.footer small{font-size:10px;color:#aeb8c6}.modal{position:fixed;inset:0;z-index:10;display:none;align-items:center;justify-content:center;padding:16px;background:#101a2bc9}.modal.open{display:flex}.dialog{width:min(540px,100%);max-height:90vh;overflow:auto;background:white;border-radius:17px;padding:23px;border:1px solid var(--line);box-shadow:0 24px 90px #0d172244}.dialog h2{font-size:23px;letter-spacing:-.7px;margin:0 0 5px}.dialog-sub{font-size:12px;color:var(--muted);margin:0 0 15px}.dialog label{display:block;margin:12px 0;font-size:11px;font-weight:750;color:#566174}.dialog input,.dialog select,.dialog textarea{display:block;width:100%;margin-top:5px;padding:10px 11px;border:1px solid var(--line);border-radius:9px;background:white;font-size:12px;outline:none}.dialog input:focus,.dialog select:focus,.dialog textarea:focus{border-color:var(--blue)}.dialog-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.dialog-close{float:right;border:0;background:transparent;color:var(--muted);font-weight:700}.queue-item{border-top:1px solid var(--line);padding:13px 0}.queue-item p{font-size:12px}.hint{font-size:10px;color:var(--muted)}.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:20;display:none;padding:10px 15px;border-radius:9px;background:var(--ink);color:white;font-size:11px;box-shadow:var(--shadow)}.hidden{display:none!important}
+@media(max-width:850px){nav{gap:13px}.hero{grid-template-columns:1fr}.hero-main{position:relative;min-height:540px;padding:76px max(44px,calc((100vw - 1160px)/2)) 88px;border-radius:0;background-image:linear-gradient(90deg,rgba(10,31,63,.78) 0%,rgba(12,38,72,.70) 34%,rgba(13,44,82,.48) 68%,rgba(13,44,82,.18) 100%);background-position:center;background-size:cover;color:white;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.hero-side{grid-template-columns:1fr 1fr;grid-template-rows:auto}.instituteGrid{grid-template-columns:repeat(2,1fr)}.teacherGrid{grid-template-columns:repeat(2,1fr)}.inst-detail{grid-template-columns:1fr 220px}}
+@media(max-width:600px){.wrap{width:min(100% - 30px,1160px)}.announcement .wrap{height:30px;font-size:8px}.announcement .top-address{display:none}.headrow{height:64px}.brand{font-size:22px}.brand-mark{width:31px;height:31px}.site-header nav{display:none}.mobile-nav{display:flex;gap:13px;overflow-x:auto;padding:0 0 11px;white-space:nowrap}.mobile-nav a{font-size:10px;font-weight:700;color:#dce6f6}.hero{padding-top:17px;gap:11px}.hero-main{position:relative;min-height:540px;padding:76px max(44px,calc((100vw - 1160px)/2)) 88px;border-radius:0;background-image:linear-gradient(90deg,rgba(10,31,63,.78) 0%,rgba(12,38,72,.70) 34%,rgba(13,44,82,.48) 68%,rgba(13,44,82,.18) 100%);background-position:center;background-size:cover;color:white;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.hero h1{font-size:clamp(58px,8.5vw,108px);line-height:.96;letter-spacing:-.065em;margin:24px 0 17px;max-width:1220px}.hero-main p{font-size:16px;max-width:380px}.hero-art{width:36%;right:-8%;bottom:-10%;opacity:.28}.hero-side{gap:10px}.hero-card{min-height:155px;padding:18px}.hero-card h2{font-size:20px}.hero-card p{font-size:11px}.section{padding-top:24px}.section-title{font-size:28px}.section-top{align-items:flex-start}.section-top .text-link{font-size:10px}.section-top>.btn{font-size:10px;padding:8px 10px}.instituteGrid{grid-template-columns:1fr 1fr;gap:8px}.institute-card{min-height:190px;padding:13px}.institute-art{height:78px}.institute-card h3{font-size:14px;margin-top:9px}.institute-card p{font-size:13px}.instPanel{padding:16px}.instPanel-head{display:block}.instPanel-actions{margin-top:10px}.instPanel-actions .btn{margin-top:0}.instPanel h3{font-size:19px}.inst-detail{grid-template-columns:1fr;gap:12px}.tabs{margin-top:15px}.teacherGrid{grid-template-columns:1fr 1fr;gap:8px}.teacher-photo{height:160px}.teacher-body{padding:10px}.teacher h3{font-size:13px}.teacher-role{font-size:10px;min-height:43px}.teacher-meta{display:block}.teacher-meta .btn{margin-top:8px;width:100%}.map-layout{grid-template-columns:1fr}.mapbox svg{min-height:265px}.mapInfo{min-height:0;padding:17px}.about-grid{grid-template-columns:1fr}.footer-row{display:block}.footer-row>*{display:block;margin:5px 0}.dialog{padding:18px}.teacher-toolbar{align-items:stretch}.search{width:100%}}
+*,*::before,*::after{border-radius:0!important}</style>
+<style>.teacher-name-link{color:inherit}.teacher-name-link:hover{color:var(--blue)}.teacher-meta .btn{white-space:nowrap}</style>
+
+<style id="readability-updates">
+.account-link{font-size:14px}
+.inst-abbr{font-size:12px;letter-spacing:.1em}
+.institute-card h3{font-size:19px;line-height:1.28}
+.institute-card p{font-size:16px;line-height:1.5}
+.instPanel h3{font-size:27px}
+.inst-description{font-size:19px;line-height:1.65}
+.topic{font-size:15px}
+.inst-side p{font-size:16px}
+.teacher h3{font-size:18px;line-height:1.28}
+.teacher-role{font-size:13px}
+.site-header nav a{font-size:16px}
+@media(max-width:600px){.site-header nav a{font-size:14px}.account-link{font-size:12px}.institute-card h3{font-size:16px}.institute-card p{font-size:14px}.instPanel h3{font-size:23px}.inst-description{font-size:17px}.topic{font-size:14px}.teacher h3{font-size:15px}.teacher-role{font-size:11px}}
+</style><style id="osm-map-styles">
+#campusMap{width:100%;height:100%;min-height:320px;background:#eaf0e8}
+.leaflet-container{font:14px/1.45 var(--sans);color:var(--ink)}
+.leaflet-control-attribution{font-size:10px!important}
+.building-picker{display:grid;gap:6px;margin:14px 0}
+.building-option{width:100%;padding:9px 10px;border:1px solid #dbe1ea;background:#f7f9fc;color:var(--ink);text-align:left;font-size:13px;font-weight:700;line-height:1.35}
+.building-option:hover,.building-option[aria-pressed="true"]{border-color:var(--blue);background:#eaf0ff;color:#173caa}
+@media(max-width:600px){.building-option{font-size:12px}}
+</style>
+<style id="brand-refresh">.brand{display:inline-flex;align-items:center;gap:9px;letter-spacing:-1.25px}
+.brand-mark{width:36px;height:36px;display:block;flex:none}
+.brand-title{color:#f5f8ff;white-space:nowrap}
+.brand .brand-guu,.brand .brand-dot{color:var(--lime)}
+.brand-guu{font-weight:800}
+@media(max-width:600px){.brand{gap:7px;letter-spacing:-1px}.brand-mark{width:31px;height:31px}.brand-title{font-size:21px}}</style>
+<style id="hero-institutes-transition">
+.hero-main{background-image:none}
+.hero-main::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(90deg,rgba(10,31,63,.78) 0%,rgba(12,38,72,.70) 34%,rgba(13,44,82,.48) 68%,rgba(13,44,82,.18) 100%);background-position:center;background-size:cover;background-repeat:no-repeat;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 66%,transparent 100%);mask-image:linear-gradient(180deg,#000 0%,#000 66%,transparent 100%)}
+</style><style id="mobile-motion-refresh">
+@media(max-width:600px){
+ body{background-attachment:scroll,scroll}
+ .wrap{width:calc(100% - 28px)}
+ .headrow{gap:10px;height:62px}
+ .brand{gap:7px;letter-spacing:-.8px;font-size:20px;min-width:0}
+ .brand-title{font-size:20px}
+ .mobile-nav{gap:17px;padding:0 14px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ .mobile-nav::-webkit-scrollbar{display:none}
+ .mobile-nav a{font-size:12px}
+ .hero-main{min-height:clamp(410px,82svh,520px);padding:58px 20px 64px}
+ .hero-main h1{font-size:clamp(42px,11.7vw,58px);letter-spacing:-.055em;max-width:100%;overflow-wrap:break-word}
+ .hero-main p{font-size:16px;max-width:100%}
+ .hero-art{width:44%;right:-5%;bottom:-8%;opacity:.22}
+ .section{padding-top:28px;padding-bottom:28px}
+ .section-title{font-size:clamp(27px,8vw,34px);line-height:1.08}
+ .section-kicker{font-size:14px;line-height:1.45}
+ .section-top{gap:10px}
+ .section-top>.btn{min-height:42px;padding:9px 11px;white-space:nowrap}
+ .instituteGrid,.teacherGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .institute-card{min-width:0;min-height:185px;padding:12px}
+ .institute-card h3{font-size:clamp(14px,3.9vw,17px);line-height:1.25;overflow-wrap:anywhere}
+ .institute-art{height:80px}
+ .teacher{min-width:0}
+ .teacher-photo{height:clamp(132px,40vw,176px)}
+ .teacher-body{padding:11px}
+ .teacher h3{font-size:15px;overflow-wrap:anywhere}
+ .teacher-role{font-size:11px;min-height:0}
+ .teacher-meta{display:block}
+ .teacher-meta .btn{width:100%;min-height:42px;margin-top:8px}
+ .teacher-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+ .search,.teacher-select{width:100%;min-height:44px}
+ .map-layout{grid-template-columns:minmax(0,1fr);gap:12px}
+ .mapbox{height:clamp(320px,72vw,440px);border-radius:14px}
+ #campusMap{height:100%;min-height:0;touch-action:pan-x pan-y}
+ .leaflet-control-zoom a{width:36px!important;height:36px!important;line-height:36px!important}
+ .leaflet-control-attribution{height:auto!important;max-width:78%;white-space:normal;line-height:1.25;background:rgba(255,255,255,.88)}
+ .leaflet-control-attribution .leaflet-attribution-flag{display:none!important}
+ .mapInfo{min-height:0;padding:16px;border-radius:14px}
+ .building-option{min-height:42px}
+ .instPanel{padding:14px}
+ .instPanel-actions .btn{min-height:42px}
+ .about-grid{grid-template-columns:minmax(0,1fr)}
+ button,.btn{touch-action:manipulation}
+}
+@media(max-width:380px){
+ .hero-main{padding-inline:16px}
+ .hero-main h1{font-size:40px}
+ .hero-side{grid-template-columns:1fr}
+ .instituteGrid,.teacherGrid{grid-template-columns:1fr}
+ .institute-card{min-height:160px}
+ .institute-art{height:96px}
+ .teacher-photo{height:220px}
+}
+</style>
+<link rel="stylesheet" href="motion2.css">
+<link rel="stylesheet" href="edition3.css">
+</head>
+<body class="guide">
+<a class="skip-link" href="#teachers">К поиску преподавателей</a>
+<div class="announcement"><div class="wrap"><span>НЕОФИЦИАЛЬНЫЙ СТУДЕНЧЕСКИЙ ПРОЕКТ</span><span class="top-address">Москва · Рязанский проспект, 99</span><button class="account-link" id="accountBtn" onclick="openAccount()">Войти / регистрация</button></div></div>
+<header class="site-header"><div class="wrap"><div class="headrow"><a class="brand" href="#home" aria-label="ИЗИ-ГУУ — на главную"><img class="brand-mark" src="images/izi-mark2.svg" alt=""><span class="brand-title">ИЗИ<span class="brand-guu">— ГУУ</span><span class="brand-dot">.</span></span></a><nav><a href="#institutes">Институты</a><a href="#teachers">Преподаватели</a><a href="#map">Карта</a><a href="#about">О проекте</a></nav></div><nav class="mobile-nav"><a href="#institutes">Институты</a><a href="#teachers">Преподаватели</a><a href="#map">Карта</a><a href="#about">О проекте</a></nav></div></header>
+<main class="wrap" id="home">
+<section class="hero" aria-labelledby="home-title">
+  <div class="hero-main">
+    <h1 id="home-title">ГУУ — ближе,<br><em>чем кажется.</em></h1>
+    <p>Найди преподавателя по фамилии, чтобы посмотреть оценки и отзывы студентов.</p>
+    <div class="quick-lookup">
+    <form class="hero-search" id="quickSearch" role="search">
+      <input id="quickName" type="search" aria-label="Имя или фамилия преподавателя" placeholder="Имя или фамилия" autocomplete="off">
+      <button type="submit">Найти <span aria-hidden="true">→</span></button>
+    </form>
+    <div id="quickResults" class="quick-results" aria-label="Найденные преподаватели" hidden></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="institutes"><div class="section-top"><div><h2 class="section-title">Институты ГУУ</h2><p class="section-kicker">Выбери институт, чтобы посмотреть направления подготовки и раздел «Студ».</p></div><a class="text-link" href="https://guu77.ru/institute" target="_blank" rel="noopener">Список на сайте ГУУ ↗</a></div><div class="instituteGrid" id="instituteGrid"></div><div class="instPanel" id="instPanel"><div class="instPanel-head"><div><span class="eyebrow" id="instLabel">ИНСТИТУТ ГУУ</span><h3 id="instTitle"></h3></div><div class="instPanel-actions"><a class="btn outline" id="instSource" target="_blank" rel="noopener">Подробнее на сайте ↗</a><button class="btn outline" id="hideInstitute" type="button">Скрыть блок</button></div></div><div class="tabs"><button class="tab active" data-tab="overview">Об институте</button><button class="tab" data-tab="stud">Студ</button></div><div id="instOverview"></div><div id="studPane" class="studEmpty hidden">Пока просто пусто.</div></div></section>
+
+<section class="section" id="teachers"><div class="section-top"><div><h2 class="section-title">Преподаватели ГУУ</h2><p class="section-kicker">Открой профиль, чтобы посмотреть предметы, оценки и отзывы студентов.</p></div><button class="btn outline" id="moderationQueue" type="button" onclick="openQueue()">Очередь модерации <span id="queueCount">(0)</span></button></div><div class="rating-intro"><div class="teacher-toolbar"><input class="search" id="teacherSearch" type="search" placeholder="Фамилия, имя или отчество…" aria-label="Поиск преподавателя по ФИО"><select class="teacher-select" id="departmentFilter" aria-label="Фильтр по кафедре"></select></div><section class="recent-teachers" id="recentTeachers" aria-labelledby="recentHeading" hidden>
+  <div class="recent-heading"><h3 id="recentHeading">Недавно смотрели</h3><button type="button" id="clearRecentTeachers" aria-label="Очистить историю просмотра преподавателей">Очистить</button></div>
+  <ul id="recentTeacherLinks"></ul>
+</section>
+<div id="teacherCount" class="filter-label" role="status"></div><div class="teacherGrid" id="teacherGrid"></div>
+<div id="catalogueEmpty" class="empty-catalogue hidden">Совпадений нет. Попробуй другую фамилию или выбери все кафедры.<button class="btn outline reset-search" type="button" id="resetSearch">Сбросить поиск</button></div><button class="btn outline" id="teacherMore" type="button" aria-controls="teacherGrid">Показать ещё 6</button></div></section>
+
+<section class="section" id="map" aria-labelledby="plan-title">
+  <div class="section-top"><div><h2 class="section-title" id="plan-title">Схема кампуса ГУУ</h2><p class="section-kicker">Рязанский проспект, 99 · Выбери корпус, переход или КПП, чтобы узнать подробности.</p></div></div>
+  <div class="campus-sheet">
+    <section class="route-panel" id="campus-route" aria-labelledby="route-title">
+      <div class="route-heading"><h3 id="route-title">Между корпусами</h3><p>Выбери два корпуса, чтобы увидеть переходы и этажи.</p></div>
+      <div class="route-controls">
+        <label>Откуда<select id="routeFrom"></select></label>
+        <button type="button" id="routeSwap" title="Поменять корпуса местами" aria-label="Поменять корпуса местами">⇄</button>
+        <label>Куда<select id="routeTo"><option value="">Выбери корпус</option></select></label>
+      </div>
+      <div class="route-result" aria-live="polite"><ol id="routeSteps"></ol><p id="routeMessage"></p></div>
+    </section>
+    <div class="plan-canvas">
+      <svg viewBox="0 0 790 450" role="group" aria-label="Корпуса ГУУ, переходы и КПП">
+        <defs>
+          <linearGradient id="campus-roof" x2=".85" y2="1"><stop stop-color="#4b7083"/><stop offset="1" stop-color="#294657"/></linearGradient>
+          <pattern id="campus-grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#acb9ad"/></pattern>
+        </defs>
+        <rect width="790" height="450" fill="#eff2e9"/><rect width="790" height="450" fill="url(#campus-grid)" opacity=".46"/>
+        <g class="plan-landscape" aria-hidden="true">
+          <path d="M0 35H790 M0 422H790" stroke="#d9dfdd" stroke-width="30"/>
+          <text x="180" y="40">улица Хлобыстова</text><text x="585" y="40">М · Выхино</text>
+          <text x="392" y="428">Рязанский проспект</text>
+          <rect x="31" y="191" width="111" height="111" rx="28" fill="#d6e4c8"/>
+          <rect x="45" y="203" width="83" height="85" rx="20" fill="none" stroke="#abc6a0"/>
+          <text x="86" y="250">Стадион</text>
+          <path d="M274 172H360L432 203V281H274Z" fill="#d6e4c8"/><text x="347" y="235">Сквер</text>
+          <path d="M527 62V178L554 209V356H514" fill="none" stroke="#587375" stroke-width="3" stroke-dasharray="4 5"/>
+          
+        </g>
+        <g class="plan-building" role="button" tabindex="0" aria-label="1. Административный корпус" aria-pressed="false" data-place="b1"><title>Административный корпус</title><path class="plan-shadow" d="M540 131H761V171H540Z" transform="translate(8 13)"/><path class="wall side" d="M761 131L761 171l5 9L766 140Z"/><path class="wall front" d="M761 171L540 171l5 9L766 180Z"/><path class="roof" d="M540 131H761V171H540Z"/><text x="650" y="156">1 · А</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="2. Общежитие № 2" aria-pressed="false" data-place="b2"><title>Общежитие № 2</title><path class="plan-shadow" d="M467 130H518V198H467Z" transform="translate(8 13)"/><path class="wall side" d="M518 130L518 198l5 9L523 139Z"/><path class="wall front" d="M518 198L467 198l5 9L523 207Z"/><path class="roof" d="M467 130H518V198H467Z"/><text x="493" y="169">Общ. 2</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="ЦУВП" aria-pressed="false" data-place="cuvp"><title>ЦУВП</title><path class="plan-shadow" d="M449 199H518V251H449Z" transform="translate(8 13)"/><path class="wall side" d="M518 199L518 251l5 9L523 208Z"/><path class="wall front" d="M518 251L449 251l5 9L523 260Z"/><path class="roof" d="M449 199H518V251H449Z"/><text x="484" y="230">ЦУВП</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="3. Бассейн" aria-pressed="false" data-place="b3"><title>Бассейн</title><path class="plan-shadow" d="M27 117H120V165H27Z" transform="translate(8 13)"/><path class="wall side" d="M120 117L120 165l5 9L125 126Z"/><path class="wall front" d="M120 165L27 165l5 9L125 174Z"/><path class="roof" d="M27 117H120V165H27Z"/><text x="74" y="146">3 · Бассейн</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="4. Лабораторный корпус" aria-pressed="false" data-place="b4"><title>Лабораторный корпус</title><path class="plan-shadow" d="M316 309H536V345H316Z" transform="translate(8 13)"/><path class="wall side" d="M536 309L536 345l5 9L541 318Z"/><path class="wall front" d="M536 345L316 345l5 9L541 354Z"/><path class="roof" d="M316 309H536V345H316Z"/><text x="427" y="332">4 · ЛК</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="5. Корпус поточных аудиторий" aria-pressed="false" data-place="b5"><title>Корпус поточных аудиторий</title><path class="plan-shadow" d="M610 221H708V228H745V247H708V263H745V282H708V300H745V320H708V349H610Z" transform="translate(8 13)"/><path class="wall side" d="M708 221L708 228l5 9L713 230Z"/><path class="wall side" d="M745 228L745 247l5 9L750 237Z"/><path class="wall front" d="M745 247L708 247l5 9L750 256Z"/><path class="wall side" d="M708 247L708 263l5 9L713 256Z"/><path class="wall side" d="M745 263L745 282l5 9L750 272Z"/><path class="wall front" d="M745 282L708 282l5 9L750 291Z"/><path class="wall side" d="M708 282L708 300l5 9L713 291Z"/><path class="wall side" d="M745 300L745 320l5 9L750 309Z"/><path class="wall front" d="M745 320L708 320l5 9L750 329Z"/><path class="wall side" d="M708 320L708 349l5 9L713 329Z"/><path class="wall front" d="M708 349L610 349l5 9L713 358Z"/><path class="roof" d="M610 221H708V228H745V247H708V263H745V282H708V300H745V320H708V349H610Z"/><text x="656" y="288">5 · ПА</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="6. Общежитие № 6" aria-pressed="false" data-place="b6"><title>Общежитие № 6</title><path class="plan-shadow" d="M379 68H438V149H379Z" transform="translate(8 13)"/><path class="wall side" d="M438 68L438 149l5 9L443 77Z"/><path class="wall front" d="M438 149L379 149l5 9L443 158Z"/><path class="roof" d="M379 68H438V149H379Z"/><text x="409" y="111">6 · Общ. 6</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="7. Спорткомплекс" aria-pressed="false" data-place="b7"><title>Спорткомплекс</title><path class="plan-shadow" d="M164 184H250V274H164Z" transform="translate(8 13)"/><path class="wall side" d="M250 184L250 274l5 9L255 193Z"/><path class="wall front" d="M250 274L164 274l5 9L255 283Z"/><path class="roof" d="M164 184H250V274H164Z"/><text x="207" y="233">7 · Спорт</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="8. Главный учебный корпус" aria-pressed="false" data-place="b8"><title>Главный учебный корпус</title><path class="plan-shadow" d="M30 363L48 347L67 364H196L231 331L255 308H277V338L215 397H59Z" transform="translate(8 13)"/><path class="wall side" d="M277 308L277 338l5 9L282 317Z"/><path class="wall front" d="M277 338L215 397l5 9L282 347Z"/><path class="wall front" d="M215 397L59 397l5 9L220 406Z"/><path class="wall side" d="M59 397L30 363l5 9L64 406Z"/><path class="roof" d="M30 363L48 347L67 364H196L231 331L255 308H277V338L215 397H59Z"/><text x="151" y="384">8 · ГУК</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="9. Административно-хозяйственный корпус" aria-pressed="false" data-place="b9"><title>Административно-хозяйственный корпус</title><path class="plan-shadow" d="M42 67H130V95H42Z" transform="translate(8 13)"/><path class="wall side" d="M130 67L130 95l5 9L135 76Z"/><path class="wall front" d="M130 95L42 95l5 9L135 104Z"/><path class="roof" d="M42 67H130V95H42Z"/><text x="86" y="86">9 · АХК</text></g>
+<g class="plan-building" role="button" tabindex="0" aria-label="16. Центр информационных технологий" aria-pressed="false" data-place="b16"><title>Центр информационных технологий</title><path class="plan-shadow" d="M172 65H248V143H172Z" transform="translate(8 13)"/><path class="wall side" d="M248 65L248 143l5 9L253 74Z"/><path class="wall front" d="M248 143L172 143l5 9L253 152Z"/><path class="roof" d="M172 65H248V143H172Z"/><text x="210" y="109">16 · ЦИТ</text></g>
+        <g class="plan-bridge" role="button" tabindex="0" aria-label="А ↔ Общежитие № 2 · 2-й этаж" aria-pressed="false" data-place="ad"><title>А ↔ Общежитие № 2 · 2-й этаж</title><path class="bridge-hit" d="M518 152H540"/><path class="bridge-line" d="M518 152H540"/><text x="529" y="141">2 эт.</text></g>
+        <g class="plan-bridge " role="button" tabindex="0" aria-label="ЛК ↔ ПА · 2-й этаж" aria-pressed="false" data-place="lp"><title>ЛК ↔ ПА · 2-й этаж</title><path class="bridge-hit" d="M536 327H610"/><path class="bridge-line" d="M536 327H610"/><text x="573" y="317" dx="0">2 эт.</text></g>
+<g class="plan-bridge " role="button" tabindex="0" aria-label="А ↔ ПА · 2-й этаж" aria-pressed="false" data-place="ap"><title>А ↔ ПА · 2-й этаж</title><path class="bridge-hit" d="M658 171V221"/><path class="bridge-line" d="M658 171V221"/><text x="658" y="200" dx="32">2 эт.</text></g>
+<g class="plan-bridge" role="button" tabindex="0" aria-label="ЛК ↔ ЦУВП · 2-й этаж" aria-pressed="false" data-place="lc"><title>ЛК ↔ ЦУВП · 2-й этаж</title><path class="bridge-hit" d="M488 251V309"/><path class="bridge-line" d="M488 251V309"/><text x="465" y="285">2 эт.</text></g>
+<g class="plan-bridge" role="button" tabindex="0" aria-label="ГУК ↔ ЛК · 3-й и 4-й этажи" aria-pressed="false" data-place="ul"><title>ГУК ↔ ЛК · 3-й и 4-й этажи</title><path class="bridge-hit" d="M277 327H316"/><path class="bridge-line" d="M277 327H316"/><text x="296" y="299" dx="0">3 и 4 эт.</text></g>
+        <g class="plan-gate" transform="translate(180 411)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 1" data-place="gate1">
+          <title>КПП № 1</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 1</text></g>
+        <g class="plan-gate" transform="translate(277 402)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 2" data-place="gate2">
+          <title>КПП № 2</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 2</text></g>
+        <g class="plan-gate" transform="translate(484 359)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 3" data-place="gate3">
+          <title>КПП № 3</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 3</text></g>
+        <g class="plan-gate" transform="translate(640 368)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 4" data-place="gate4">
+          <title>КПП № 4</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 4</text></g>
+        <g class="plan-gate" transform="translate(550 123)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 5" data-place="gate5">
+          <title>КПП № 5</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 5</text></g>
+        <g class="plan-gate" transform="translate(505 123)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 6" data-place="gate6">
+          <title>КПП № 6</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 6</text></g>
+        <g class="plan-gate" transform="translate(64 57)" role="button" tabindex="0" aria-pressed="false" aria-label="КПП № 11" data-place="gate11">
+          <title>КПП № 11</title><rect class="gate-hit" x="-18" y="-29" width="36" height="34"/><path class="gate-pin" d="M-16 -23H16Q19 -23 19 -20V-9Q19 -6 16 -6H4L0 0L-4 -6H-16Q-19 -6 -19 -9V-20Q-19 -23 -16 -23Z"/><text y="-11">КПП 11</text></g>
+      </svg>
+    </div>
+    <div class="plan-key"><span class="gate-key"><i aria-hidden="true"></i> Контрольно-пропускной пункт</span><span>Пунктир · путь от метро ко входу в ЛК</span><span>2 эт. · переход на втором этаже</span><span>3 и 4 эт. · переход на обоих этажах</span></div>
+    <div class="plan-readout">
+      <label for="plan-select">Корпуса, переходы и КПП<select id="plan-select"><optgroup label="Корпуса"><option value="b1">1 · Административный корпус</option><option value="b2">2 · Общежитие № 2</option><option value="cuvp">ЦУВП</option><option value="b3">3 · Бассейн</option><option value="b4">4 · Лабораторный корпус</option><option value="b5">5 · Корпус поточных аудиторий</option><option value="b6">6 · Общежитие № 6</option><option value="b7">7 · Спорткомплекс</option><option value="b8">8 · Главный учебный корпус</option><option value="b9">9 · Административно-хозяйственный корпус</option><option value="b16">16 · Центр информационных технологий</option></optgroup><optgroup label="Переходы"><option value="ad">А ↔ Общежитие № 2 · 2-й этаж</option><option value="lp">ЛК ↔ ПА · 2-й этаж</option><option value="ap">А ↔ ПА · 2-й этаж</option><option value="lc">ЛК ↔ ЦУВП · 2-й этаж</option><option value="ul">ГУК ↔ ЛК · 3-й и 4-й этажи</option></optgroup><optgroup label="КПП"><option value="gate1">КПП № 1</option><option value="gate2">КПП № 2</option><option value="gate3">КПП № 3</option><option value="gate4">КПП № 4</option><option value="gate5">КПП № 5</option><option value="gate6">КПП № 6</option><option value="gate11">КПП № 11</option></optgroup></select></label>
+      <div aria-live="polite" aria-atomic="true"><h3 id="plan-name"></h3><p id="plan-info"></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about"><div class="section-top"><div><h2 class="section-title">Про ИЗИ-ГУУ</h2><p class="section-kicker">Независимый студенческий проект.</p></div></div><div class="about-grid"><article class="about-card"><h3>Зачем это</h3><p>Собрать в одном месте студенческие подсказки, описание институтов и ориентиры кампуса. В разделах «Студ» можно будет узнать о студенческих советах институтов.</p></article><article class="about-card"><h3>Как устроена демо-версия</h3><p>Регистрация и очередь отзывов пока работают только локально в этом браузере. Это демонстрация интерфейса, а не общая база аккаунтов. Для настоящего запуска потребуется сервер и защищённая модерация.</p></article></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-row"><strong>ИЗИ-ГУУ<span style="color:var(--lime)">.</span> <small>студенческий путеводитель</small></strong><small>Неофициальный проект · 2026</small></div></footer>
+
+<div class="modal" id="accountModal" role="dialog" aria-modal="true"><div class="dialog"><button class="dialog-close" onclick="closeModal('accountModal')">Закрыть ✕</button><h2>Аккаунт</h2><p class="dialog-sub" id="accountHelp">Демо-аккаунт сохранится в этом браузере. Не используй настоящий пароль.</p><div id="accountSignedIn" class="hidden"><p class="dialog-sub" id="accountSummary"></p><div class="dialog-actions"><button class="btn outline" type="button" onclick="logout()">Выйти из аккаунта</button></div></div><form id="accountForm"><label>Имя<input id="accountName" required maxlength="40" placeholder="Как к тебе обращаться"></label><label>Статус в университете<select id="accountRole" required><option value="student">Студент</option><option value="student_council">Студент Студсовета</option></select></label><label>Email<input id="accountEmail" required type="email" placeholder="student@example.ru"></label><label>Пароль<input id="accountPassword" required type="password" minlength="6" placeholder="Не менее 6 символов"></label><div class="dialog-actions"><button class="btn" type="submit">Создать аккаунт</button><button class="btn outline" type="button" id="loginButton">Войти</button></div><p class="dialog-sub" role="status" id="accountMessage"></p></form></div></div>
+<div class="modal" id="queueModal" role="dialog" aria-modal="true"><div class="dialog"><button class="dialog-close" onclick="closeModal('queueModal')">Закрыть ✕</button><h2>Очередь модерации</h2><p class="dialog-sub">Локальная демо-панель на этом устройстве.</p><div id="queueItems"></div></div></div><div class="toast" id="toast"></div>
+<script src="motion2.js"></script>
+<script src="ratings2.js"></script><script src="faculty-data2.js"></script><script>
+const institutes=[
+ {name:'Институт управления персоналом, социальных и бизнес-коммуникаций',abbr:'ИУПСИБК',art:'iupsbk2.svg',short:'Люди, коммуникации и сервис',description:'Здесь изучают управление персоналом и организациями, социальные процессы, деловые коммуникации и сервисные направления. В институте есть кафедра иностранных языков; в ГУУ также развиваются программы, связанные с гостиничным и туристическим бизнесом.',topics:['управление персоналом','психология управления','коммуникации','сервис и туризм'],source:'https://dpo.guu.ru/translator-prof-communication'},
+ {name:'Институт государственного управления и права',abbr:'ИГУИП',art:'igup2.svg',short:'Государство, право и город',description:'Институт объединяет государственное и муниципальное управление, право и политические технологии. Студенты разбирают устройство органов власти, нормативную базу и управление развитием территорий. На сайте кафедры ГМУ опубликованы образовательные программы и состав преподавателей.',topics:['государственное управление','муниципальное управление','юриспруденция','урбанистика'],source:'https://gmuguu.ru/'},
+ {name:'Институт отраслевого менеджмента',abbr:'ИОМ',art:'iom2.svg',short:'Проекты, транспорт и отрасли',description:'Фокус института — менеджмент в конкретных отраслях: управление проектами, транспортом и логистикой, производственными и сервисными системами. Учебные программы сочетают управленческие дисциплины с отраслевыми задачами и практическими кейсами.',topics:['управление проектами','транспорт и логистика','отраслевой менеджмент','сервис'],source:'https://dpo.guu.ru/project-management'},
+ {name:'Институт информационных систем',abbr:'ИИС',art:'iis2.svg',short:'Цифровые решения для бизнеса',description:'Институт готовит специалистов на стыке управления и информационных технологий. Среди учебных тем — бизнес-информатика, проектирование и внедрение информационных систем, анализ бизнес-процессов и цифровая трансформация организаций.',topics:['бизнес-информатика','информационные системы','цифровая трансформация','аналитика'],source:'https://priem.guu.ru/wp-content/uploads/2020/04/Бизнес-информатика.pdf'},
+ {name:'Институт маркетинга',abbr:'ИМ',art:'im2.svg',short:'Бренды, рынки и коммуникации',description:'Здесь изучают маркетинговые исследования, стратегию и продвижение брендов, рекламу и цифровые каналы. В учебных задачах встречаются анализ аудитории, позиционирование продукта, медиапланирование и оценка эффективности кампаний.',topics:['маркетинговые исследования','бренд-менеджмент','реклама и PR','цифровой маркетинг'],source:'https://dpo.guu.ru/mini-mba-marketing'},
+ {name:'Институт экономики и финансов',abbr:'ИЭФ',art:'ief2.svg',short:'Экономика, финансы и данные',description:'Институт охватывает экономический анализ и финансовое управление. В программах и учебных кейсах встречаются инвестиции, бухгалтерский и управленческий учёт, финансовая отчётность, статистика и оценка результатов деятельности организаций.',topics:['экономика','финансы и кредит','учёт и аудит','статистика'],source:'https://dpo.guu.ru/managing-company-in-an-economic-crisis'},
+ {name:'Институт заочного образования',abbr:'ИЗО',art:'izo2.svg',short:'Заочное обучение и гибкий формат',description:'Институт организует обучение в заочном формате. В опубликованных материалах ГУУ представлены программы по менеджменту, экономике, бизнес-информатике, управлению персоналом и государственному управлению. Состав направлений может меняться — актуальные условия сверяй на сайте института.',topics:['заочное обучение','менеджмент','экономика','бизнес-информатика'],source:'https://ioo.guu.ru/'},
+ {name:'Высшая школа бизнеса и технологий ГУУ',abbr:'ВШБИТ',art:'vshbit2.svg',short:'Бизнес-образование, стратегия и лидерство',description:'Высшая школа бизнеса и технологий ГУУ объединяет программы MBA, DBA, профессиональной переподготовки и повышения квалификации. В центре обучения — стратегическое управление, лидерство, предпринимательство и практические инструменты для развития бизнеса.',topics:['MBA и DBA','стратегическое управление','лидерство','цифровая трансформация'],source:'https://guu.ru/institute/hsb/'}
+];
+const faculty=window.facultyData;
+const grid=document.getElementById('instituteGrid');institutes.forEach(inst=>{const b=document.createElement('button');b.className='institute-card';b.setAttribute('aria-controls','instPanel');b.setAttribute('aria-expanded','false');b.innerHTML='<img class="institute-art" src="images/institutes/'+esc(inst.art)+'" alt="'+esc(inst.abbr+' — '+inst.name)+'"><span class="inst-abbr">'+esc(inst.abbr)+'</span><h3>'+esc(inst.name)+'</h3><p>'+esc(inst.short)+'</p><span class="inst-arrow">↗</span>';b.onclick=()=>showInstitute(institutes.indexOf(inst),b);grid.appendChild(b)});
+function hideInstitute(){
+ const panel=document.getElementById('instPanel'),active=document.querySelector('.institute-card.active');
+ if(panel.contains(document.activeElement))active?.focus({preventScroll:true});
+ IziMotion.panel(panel,()=>document.querySelectorAll('.institute-card').forEach(card=>{card.classList.remove('active');card.setAttribute('aria-expanded','false')}),false);
+}
+function showInstitute(i,button){
+ const panel=document.getElementById('instPanel');
+ if(panel.dataset.motionOpen!=='false'&&panel.classList.contains('open')&&button.classList.contains('active')){hideInstitute();return}
+ const x=institutes[i];
+ const opening=IziMotion.panel(panel,()=>{
+  document.querySelectorAll('.institute-card').forEach(card=>{const selected=card===button;card.classList.toggle('active',selected);card.setAttribute('aria-expanded',String(selected))});
+  document.getElementById('instTitle').textContent=x.name;
+  document.getElementById('instOverview').innerHTML='<div class="inst-detail"><div><p class="inst-description">'+esc(x.description)+'</p><div class="inst-topics">'+x.topics.map(t=>'<span class="topic">'+esc(t)+'</span>').join('')+'</div></div><aside class="inst-side"><b>С чего начать</b><p>Посмотри программы и новости института на сайте ГУУ. </p><div class="inst-actions"><a class="btn" href="'+esc(x.source)+'" target="_blank" rel="noopener">Официальный источник ↗</a></div></aside></div>';
+  document.getElementById('instSource').href=x.source;
+  setTab('overview',false);
+ },true);
+ IziMotion.content(document.getElementById('instOverview'));
+ opening.then(finished=>{if(finished&&button.classList.contains('active'))panel.scrollIntoView({behavior:IziMotion.reduced()?'auto':'smooth',block:'nearest'})});
+}
+document.getElementById('hideInstitute').addEventListener('click',hideInstitute);
+function setTab(tab,animated=true){
+ const panel=document.getElementById('instPanel'),pane=document.getElementById(tab==='stud'?'studPane':'instOverview');
+ if(animated&&document.querySelector('.tab.active')?.dataset.tab===tab)return;
+ const update=()=>{
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===tab));
+  document.getElementById('instOverview').classList.toggle('hidden',tab==='stud');
+  document.getElementById('studPane').classList.toggle('hidden',tab!=='stud');
+ };
+ if(animated&&panel.classList.contains('open')){IziMotion.panel(panel,update,true);IziMotion.content(pane)}else update();
+}
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{const iisIndex=institutes.findIndex(inst=>inst.abbr==='ИИС');if(t.dataset.tab==='stud'&&grid.children[iisIndex]?.classList.contains('active')){IziMotion.navigate('stud-iis2.html');return}setTab(t.dataset.tab)});
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}function load(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}}function save(k,v){localStorage.setItem(k,JSON.stringify(v))}function allReviews(){return load('izi-reviews',[])}
+const searchField = document.getElementById('teacherSearch');
+function searchWords(value) {
+  return value.toLocaleLowerCase('ru').replace(/ё/g, 'е').trim().split(/[\s.-]+/u).filter(Boolean);
+}
+const indexedNames = new Map(faculty.map(person => [person.name, searchWords(person.name)]));
+const facultyIds = new Map(faculty.map((person, index) => [person, index]));
+let facultyPageSize=6;
+function renderFaculty(reset=true){
+ if(reset)facultyPageSize=6;
+ const words = searchWords(searchField.value);
+ const dept = document.getElementById('departmentFilter').value;
+ const list=document.getElementById('teacherGrid'),filtered=faculty.filter(x=>(dept==='all'||x.dept===dept)&&words.every(word => indexedNames.get(x.name).some(name => name.startsWith(word)))),visible=filtered.slice(0,facultyPageSize);
+ const previousCount=reset?0:list.children.length;
+ document.getElementById('catalogueEmpty').classList.toggle('hidden',filtered.length > 0);
+ const approved = allReviews().filter(review => review.status === 'approved');
+ const markup=visible.slice(previousCount).map(x=>{
+  const reviews=approved.filter(r=>r.teacher===x.name),avg=reviewRatings.mean(reviews.map(reviewRatings.overall));
+  const photo=x.photo||'',details='teacher2.html?name='+encodeURIComponent(x.name);
+  return '<a class="teacher" id="teacher-card-'+facultyIds.get(x)+'" href="'+esc(details)+'" aria-label="Открыть отзывы: '+esc(x.name)+'"><div class="teacher-photo">'+(photo?'<img src="'+esc(photo)+'" alt="Фотография: '+esc(x.name)+'" loading="lazy">':'<img class="teacher-placeholder" src="images/teacher-photo-missing2.jpg" alt="Фото преподавателя пока не найдено" loading="lazy">')+'</div><div class="teacher-body"><h3>'+esc(x.name)+'</h3><div class="teacher-role">'+esc(x.dept)+'</div><div class="teacher-meta"><span class="'+(avg?'rating-empty':'no-score')+'">'+(avg?'★ '+avg.toFixed(1)+' · '+reviewRatings.reviewCount(reviews.length):'Отзывы ещё не опубликованы')+'</span><span class="card-action">Профиль →</span></div></div></a>';
+ }).join('');
+ if(reset){IziMotion.clear(list);list.innerHTML=markup}else list.insertAdjacentHTML('beforeend',markup);
+ const catalogue = new URLSearchParams();
+ if (searchField.value) catalogue.set('q', searchField.value);
+ if (dept !== 'all') catalogue.set('dept', dept);
+ if (facultyPageSize > 6) catalogue.set('shown', String(visible.length));
+ for (const [index, card] of Array.from(list.children).entries()) {
+   catalogue.set('card', card.id);
+   const profile = new URLSearchParams({name: visible[index].name, list: catalogue.toString()});
+   card.href = 'teacher2.html?' + profile;
+ }
+ IziMotion.watch(list);
+ [...list.querySelectorAll('.teacher')].slice(previousCount).flatMap(card=>[...card.querySelectorAll('.teacher-photo img:not(.teacher-placeholder)')]).forEach(img=>img.addEventListener('error',()=>{img.onerror=null;img.src='images/teacher-photo-missing2.jpg';img.classList.add('teacher-placeholder');img.alt='Фото преподавателя пока не найдено'}));
+ document.getElementById('teacherCount').textContent='Показано '+visible.length+' из '+filtered.length;
+ const moreButton = document.getElementById('teacherMore');
+ const remaining = filtered.length - visible.length;
+ moreButton.textContent = 'Показать ещё ' + Math.min(6, remaining);
+ moreButton.classList.toggle('hidden', remaining === 0);
+}
+const departmentFilter=document.getElementById('departmentFilter');
+[...new Set(faculty.map(x=>x.dept))].sort((a,b)=>a.localeCompare(b,'ru')).forEach(d=>departmentFilter.add(new Option(d,d)));
+departmentFilter.add(new Option('Все кафедры · '+faculty.length,'all'),0);
+departmentFilter.value = 'all';
+// Use layout coordinates so entry and hover animations do not shift the return position.
+function cardDocumentTop(card) {
+  let top = card.offsetTop;
+  for (let parent = card.offsetParent; parent; parent = parent.offsetParent) {
+    top += parent.offsetTop + parent.clientTop;
+  }
+  return top;
+}
+const teacherGrid = document.getElementById('teacherGrid');
+teacherGrid.addEventListener('click', event => {
+  const card = event.target.closest('a.teacher');
+  if (!card || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  const profile = new URL(card.href);
+  const catalogue = new URLSearchParams(profile.searchParams.get('list'));
+  catalogue.set('offset', Math.round(cardDocumentTop(card) - window.scrollY));
+  profile.searchParams.set('list', catalogue.toString());
+  card.href = profile.href;
+  history.replaceState({...history.state, catalogue: catalogue.toString()}, '');
+});
+function openCatalogue() {
+  const back = performance.getEntriesByType('navigation')[0]?.type === 'back_forward';
+  const state = back && history.state?.catalogue ? new URLSearchParams(history.state.catalogue)
+    : location.hash === '#teachers' ? new URLSearchParams(location.search) : new URLSearchParams();
+  const cardId = state.get('card');
+  if (!/^teacher-card-\d+$/.test(cardId)) { renderFaculty(); return; }
+  searchField.value = state.get('q') || '';
+  const dept = state.get('dept');
+  departmentFilter.value = Array.from(departmentFilter.options).some(option => option.value === dept) ? dept : 'all';
+  facultyPageSize = Math.max(6, Math.min(Number(state.get('shown')) || 6, faculty.length));
+  renderFaculty(false);
+  const card = document.getElementById(cardId);
+  if (!card) return;
+  window.addEventListener('pageshow', () => requestAnimationFrame(() => {
+    const offset = Number(state.get('offset'));
+    card.focus({preventScroll:true});
+    if (state.has('offset') && Number.isFinite(offset) && offset < innerHeight && offset > -card.offsetHeight) {
+      window.scrollTo({top: cardDocumentTop(card) - offset, behavior:'instant'});
+    } else card.scrollIntoView({block:'center', behavior:'instant'});
+  }), {once:true});
+}
+document.getElementById('quickSearch').addEventListener('submit', event => {
+  event.preventDefault();
+  searchField.value = document.getElementById('quickName').value.trim();
+  departmentFilter.value = 'all';
+  renderFaculty();
+  location.hash = 'teachers';
+  searchField.focus({preventScroll:true});
+  document.getElementById('teachers').scrollIntoView({behavior:IziMotion.reduced()?'instant':'smooth'});
+});
+document.getElementById('resetSearch').addEventListener('click', () => {
+  searchField.value = '';
+  document.getElementById('quickName').value = '';
+  departmentFilter.value = 'all';
+  renderFaculty();
+  searchField.focus();
+});
+document.getElementById('teacherSearch').addEventListener('input',()=>renderFaculty(true));
+departmentFilter.addEventListener('change',()=>renderFaculty(true));
+document.getElementById('teacherMore').addEventListener('click', () => {
+  const firstNewIndex = teacherGrid.children.length;
+  facultyPageSize += 6;
+  renderFaculty(false);
+  const firstNewCard = teacherGrid.children[firstNewIndex];
+  if (firstNewCard) {
+    firstNewCard.focus({preventScroll:true});
+    firstNewCard.scrollIntoView({block:'start', behavior:'instant'});
+  }
+});
+function openModal(id){IziMotion.modal(document.getElementById(id),true)}
+function closeModal(id){IziMotion.modal(document.getElementById(id),false)}
+document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)closeModal(m.id)}));
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>t.style.display='none',3000)}
+function finishAuthReturn(){const target=new URLSearchParams(location.search).get('return');if(target&&target.startsWith('teacher2.html?')){IziMotion.navigate(target);return true}return false}
+function renderAccountUI(){const u=load('izi-user',null),btn=document.getElementById('accountBtn'),form=document.getElementById('accountForm'),help=document.getElementById('accountHelp'),signed=document.getElementById('accountSignedIn');btn.textContent=u?u.name:'Войти / регистрация';form.classList.toggle('hidden',!!u);help.classList.toggle('hidden',!!u);signed.classList.toggle('hidden',!u);if(u)document.getElementById('accountSummary').textContent='Вы вошли как '+u.name+' · '+(u.role==='student_council'?'Студент Студсовета':'Студент')}
+function openAccount(){renderAccountUI();openModal('accountModal')}
+function logout(){localStorage.removeItem('izi-user');renderAccountUI();closeModal('accountModal');toast('Вы вышли из аккаунта')}
+
+function updateQueue(){document.getElementById('queueCount').textContent='('+allReviews().filter(x=>x.status==='pending').length+')'}
+function openQueue(){renderQueue();openModal('queueModal')}
+function renderQueue(){const q=allReviews().filter(x=>x.status==='pending'),box=document.getElementById('queueItems');box.innerHTML=q.length?q.map(x=>`<div class="queue-item"><b>${esc(x.teacher)}</b><div class="hint">${x.course?esc(x.course)+(x.term?' · '+esc(x.term):'')+' · ':''}${reviewRatings.categories.map(({ key, label }) => label + " " + (reviewRatings.score(x, key) === null ? "—" : reviewRatings.score(x, key) + "/5")).join(" · ")} · ${new Date(x.date).toLocaleDateString('ru-RU')}</div><p>${esc(x.text)}</p><button class="btn" onclick="moderate(${x.id},'approved')">Одобрить</button> <button class="btn outline" onclick="moderate(${x.id},'rejected')">Отклонить</button></div>`).join(''):'<p class="hint">Новых отзывов пока нет.</p>'}
+function moderate(id,status){const a=allReviews(),x=a.find(z=>z.id===id);if(x)x.status=status;save('izi-reviews',a);renderQueue();renderFaculty();updateQueue();toast(status==='approved'?'Отзыв опубликован':'Отзыв отклонён')}
+const campusPlaces = {
+  "b1": {
+    "name": "1 · Административный корпус",
+    "info": "На 2-м этаже есть переходы в общежитие № 2 и в корпус поточных аудиторий."
+  },
+  "b2": {
+    "name": "2 · Общежитие № 2",
+    "info": "Со стороны улицы Хлобыстова. Переход в административный корпус находится на 2-м этаже."
+  },
+  "cuvp": {
+    "name": "ЦУВП",
+    "info": "Из лабораторного корпуса в ЦУВП можно пройти по 2-му этажу."
+  },
+  "b3": {
+    "name": "3 · Бассейн",
+    "info": "Рядом со стадионом, с западной стороны кампуса."
+  },
+  "b4": {
+    "name": "4 · Лабораторный корпус",
+    "info": "Со стороны метро путь ко входу проходит под двумя арками. На 2-м этаже есть переходы в ПА и ЦУВП, на 3-м и 4-м — в ГУК."
+  },
+  "b5": {
+    "name": "5 · Корпус поточных аудиторий",
+    "info": "На 2-м этаже находятся переходы в ЛК и административный корпус. Главный вход в библиотеку — на 1-м этаже рядом с гардеробом."
+  },
+  "b6": {
+    "name": "6 · Общежитие № 6",
+    "info": "Со стороны улицы Хлобыстова, рядом со сквером."
+  },
+  "b7": {
+    "name": "7 · Спорткомплекс",
+    "info": "Между стадионом и университетским сквером."
+  },
+  "b8": {
+    "name": "8 · Главный учебный корпус",
+    "info": "Вдоль Рязанского проспекта. Переходы в лабораторный корпус находятся на 3-м и 4-м этажах."
+  },
+  "b9": {
+    "name": "9 · Административно-хозяйственный корпус",
+    "info": "Между бассейном и улицей Хлобыстова."
+  },
+  "b16": {
+    "name": "16 · Центр информационных технологий",
+    "info": "Рядом с административно-хозяйственным корпусом и спорткомплексом."
+  },
+  "lp": {
+    "name": "ЛК ↔ ПА · 2-й этаж",
+    "info": "Переход соединяет лабораторный корпус и корпус поточных аудиторий. Чтобы попасть в библиотеку, со стороны ПА спустись на 1-й этаж."
+  },
+  "ap": {
+    "name": "А ↔ ПА · 2-й этаж",
+    "info": "Стеклянный переход из административного корпуса в поточный. На стороне ПА рядом находится коворкинг напротив аудитории ПА-203."
+  },
+  "lc": {
+    "name": "ЛК ↔ ЦУВП · 2-й этаж",
+    "info": "Переход между лабораторным корпусом и ЦУВП находится на 2-м этаже."
+  },
+  "ul": {
+    "name": "ГУК ↔ ЛК · 3-й и 4-й этажи",
+    "info": "Перейти между главным учебным и лабораторным корпусами можно на 3-м или 4-м этаже."
+  },
+  "ad": {
+    "name": "А ↔ Общежитие № 2 · 2-й этаж",
+    "info": "Из административного корпуса в общежитие № 2 можно перейти по второму этажу."
+  },
+  "gate1": {
+    "name": "КПП № 1",
+    "info": "У главного учебного корпуса со стороны Рязанского проспекта."
+  },
+  "gate2": {
+    "name": "КПП № 2",
+    "info": "Въезд со стороны Рязанского проспекта, рядом с главным учебным корпусом."
+  },
+  "gate3": {
+    "name": "КПП № 3",
+    "info": "У лабораторного корпуса со стороны Рязанского проспекта."
+  },
+  "gate4": {
+    "name": "КПП № 4",
+    "info": "У корпуса поточных аудиторий со стороны Рязанского проспекта."
+  },
+  "gate5": {
+    "name": "КПП № 5",
+    "info": "Со стороны метро «Выхино», у административного корпуса."
+  },
+  "gate6": {
+    "name": "КПП № 6",
+    "info": "Со стороны метро «Выхино», у общежития № 2."
+  },
+  "gate11": {
+    "name": "КПП № 11",
+    "info": "Со стороны улицы Хлобыстова, рядом с административно-хозяйственным корпусом. На плане обозначен как грузовой въезд."
+  }
+};
+const planSelect = document.getElementById('plan-select');
+const planNodes = document.querySelectorAll('#map [data-place]');
+function selectPlace(id) {
+  const place = campusPlaces[id];
+  planSelect.value = id;
+  document.getElementById('plan-name').textContent = place.name;
+  document.getElementById('plan-info').textContent = place.info;
+  planNodes.forEach(node => node.setAttribute('aria-pressed', String(node.dataset.place === id)));
+}
+planSelect.addEventListener('change', () => selectPlace(planSelect.value));
+planNodes.forEach(node => {
+  node.addEventListener('click', () => selectPlace(node.dataset.place));
+  node.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      selectPlace(node.dataset.place);
+    }
+  });
+});
+selectPlace('lp');
+ openCatalogue();updateQueue();renderAccountUI();if(location.hash==='#account')openAccount();if(new URLSearchParams(location.search).get('institute')==='iis'){const i=institutes.findIndex(inst=>inst.abbr==='ИИС');if(i>=0)showInstitute(i,grid.children[i])}
+</script>
+
+<script src="account3.js"></script>
+<script src="guide2.js"></script>
+<script src="recent2.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

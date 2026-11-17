@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="ИГУИП — государственное управление и право">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a9c8d2"/><stop offset="1" stop-color="#e8dbc7"/></linearGradient>
+ <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#e7dbc7"/><stop offset="1" stop-color="#b8a68e"/></linearGradient>
+</defs>
+<rect width="720" height="270" fill="url(#sky)"/>
+<path d="M0 221c101-23 202-20 313 0 126 23 257 4 407-26v75H0Z" fill="#7f8b78"/>
+<path d="M132 75 359 25l228 50v20H132Z" fill="#526b72"/>
+<rect x="151" y="92" width="418" height="106" fill="url(#stone)"/>
+<rect x="171" y="108" width="48" height="90" fill="#83989a"/><rect x="237" y="108" width="48" height="90" fill="#83989a"/>
+<rect x="303" y="108" width="48" height="90" fill="#83989a"/><rect x="369" y="108" width="48" height="90" fill="#83989a"/>
+<rect x="435" y="108" width="48" height="90" fill="#83989a"/><rect x="501" y="108" width="48" height="90" fill="#83989a"/>
+<path d="M165 198h390M151 92h418M142 206h437" stroke="#7c7162" stroke-width="5"/>
+<path d="M177 202v13m66-13v13m66-13v13m66-13v13m66-13v13m66-13v13m66-13v13" stroke="#b5a78f" stroke-width="7"/>
+<path d="M0 150c45-31 85-26 123 0v99H0Z" fill="#53695a"/><path d="M34 120c-28 7-44 31-41 52 25 4 51-7 64-26 16 23 45 29 67 17-3-29-27-47-54-46 8-23-4-43-27-53-19 13-23 34-9 56Z" fill="#66816a"/>
+<path d="M604 152c36-24 70-22 116 2v91H596Z" fill="#617a66"/>
+<rect x="67" y="213" width="211" height="52" rx="4" fill="#b9855d" transform="rotate(-3 67 213)"/>
+<rect x="91" y="218" width="161" height="31" rx="5" fill="#f4ead7" transform="rotate(-3 91 218)"/>
+<text x="108" y="241" font-family="Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="1" fill="#37525d" transform="rotate(-3 108 241)">ИГУИП</text>
+<path d="m302 243 117-15" stroke="#f0eadb" stroke-width="3" opacity=".6"/>
+<rect x="478" y="228" width="36" height="26" rx="2" fill="#d5c7ac" transform="rotate(10 478 228)"/><path d="M480 235h25M482 241h17" stroke="#8d826d" stroke-width="2"/>
+</svg>

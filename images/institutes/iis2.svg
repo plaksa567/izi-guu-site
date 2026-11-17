@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="ИИС — информационные системы и цифровые решения">
+<defs>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#293e62"/><stop offset="1" stop-color="#141f34"/></linearGradient>
+ <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#b8d8d3"/><stop offset="1" stop-color="#7aa7a6"/></linearGradient>
+</defs>
+<rect width="720" height="270" fill="url(#night)"/>
+<path d="M0 205c155-28 321-11 472 4 96 10 180-3 248-20v81H0Z" fill="#705b4c"/>
+<rect x="133" y="24" width="394" height="170" rx="13" fill="#1d2734" stroke="#71858b" stroke-width="5"/>
+<rect x="149" y="39" width="362" height="140" rx="5" fill="url(#screen)"/>
+<rect x="166" y="52" width="113" height="113" rx="5" fill="#e3e6d9"/>
+<path d="M183 145V126h16v19m15 0V99h16v46m15 0V79h16v66" fill="#4f7375" opacity=".8"/>
+<path d="M184 112h15m15-25h16m15-22h16" stroke="#cf785d" stroke-width="4"/>
+<rect x="294" y="51" width="193" height="31" rx="4" fill="#ecede0"/><text x="310" y="73" font-family="Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="1.2" fill="#263c51">ИИС</text>
+<path d="M300 98h175M300 114h144M300 130h158M300 146h114" stroke="#557c7c" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+<path d="M318 194h25l-25 28h-26zM414 194h25l25 28h-25z" fill="#87989a"/>
+<path d="M275 223h173l-22 12H295z" fill="#bdc3ba"/>
+<rect x="177" y="226" width="136" height="22" rx="5" fill="#d7d3c7"/>
+<g fill="#66777a"><circle cx="190" cy="233" r="2"/><circle cx="205" cy="233" r="2"/><circle cx="220" cy="233" r="2"/><circle cx="235" cy="233" r="2"/><circle cx="250" cy="233" r="2"/><circle cx="265" cy="233" r="2"/><circle cx="280" cy="233" r="2"/></g>
+<rect x="548" y="82" width="80" height="81" rx="9" fill="#253449"/><path d="M558 101h60M558 119h38M558 137h48" stroke="#8cb0aa" stroke-width="4" stroke-linecap="round"/>
+<path d="M567 75c-4-17 20-22 25-7 6-16 30-8 26 8" fill="none" stroke="#d38a65" stroke-width="3"/>
+<path d="M527 188c44 11 90 8 151-10" fill="none" stroke="#d4b07b" stroke-width="4"/>
+</svg>

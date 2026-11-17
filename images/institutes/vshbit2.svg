@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="ВШБИТ — бизнес-образование и стратегия">
+<defs>
+ <linearGradient id="room" x2="0" y2="1"><stop stop-color="#d5d8d0"/><stop offset="1" stop-color="#eee1ca"/></linearGradient>
+ <linearGradient id="table" x2="1" y2="1"><stop stop-color="#526b6b"/><stop offset="1" stop-color="#263e48"/></linearGradient>
+</defs>
+<rect width="720" height="270" fill="url(#room)"/>
+<rect x="38" y="22" width="197" height="124" fill="#a8babb"/><path d="M52 35h81v98H52Z" fill="#dbe1d6"/><path d="M142 35h78v98h-78Z" fill="#c6d4cb"/>
+<path d="M55 124c26-26 51-20 72 3v6H55Z" fill="#708575"/><path d="M143 121c24-28 52-20 74 5v7h-74Z" fill="#687d73"/>
+<rect x="276" y="24" width="396" height="116" fill="#f4f0e4" stroke="#879496" stroke-width="4"/>
+<path d="M304 43h137M304 55h89" stroke="#8b9c9b" stroke-width="3" stroke-linecap="square"/>
+<rect x="305" y="75" width="70" height="42" fill="#d8a35e"/><rect x="386" y="64" width="78" height="53" fill="#6c9190"/><rect x="475" y="50" width="68" height="67" fill="#d16f57"/><rect x="554" y="38" width="87" height="79" fill="#587983"/>
+<path d="M315 96h50m34-11 58 18m29-32 51 25m24-33 57-12" fill="none" stroke="#334d56" stroke-width="4"/>
+<circle cx="365" cy="96" r="5" fill="#f1eadb"/><circle cx="463" cy="103" r="5" fill="#f1eadb"/><circle cx="544" cy="96" r="5" fill="#f1eadb"/>
+<path d="M0 181c126-25 242-24 353-8 140 20 256 9 367-15v112H0Z" fill="url(#table)"/>
+<path d="M0 211c171-18 320-3 477 11 95 8 170 2 243-9" fill="none" stroke="#9ca89b" stroke-width="3" opacity=".55"/>
+<path d="M102 185h160v49H102Z" fill="#293a42"/><path d="M114 194h136v31H114Z" fill="#a8bfbd"/>
+<path d="M129 218v-12h18v12m11 0v-17h18v17m12 0v-8h18v8m11 0v-19h18v19" fill="#527578"/>
+<path d="M85 235h194l-17 10H102Z" fill="#d3c6ad"/>
+<rect x="440" y="170" width="170" height="73" fill="#c8a16c" transform="rotate(-2 440 170)"/>
+<rect x="456" y="180" width="143" height="48" fill="#f4ead6" transform="rotate(-2 456 180)"/>
+<text x="473" y="210" font-family="Arial,sans-serif" font-size="23" font-weight="800" letter-spacing="1.2" fill="#364f56" transform="rotate(-2 473 210)">ВШБИТ</text>
+<path d="M347 191h67v4h-67z" fill="#e8e1d0"/><path d="M350 207h48v3h-48z" fill="#bcae95"/>
+<rect x="630" y="188" width="24" height="41" fill="#d5dbd1"/><path d="M642 188v-16" stroke="#e4c27f" stroke-width="5"/>
+<path d="M38 162h643" stroke="#fff" stroke-opacity=".55" stroke-width="3"/>
+</svg>

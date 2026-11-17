@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Студенческий совет ИИС ГУУ: студенческая жизнь, проекты и канал совета.">
+<title>Студенческий совет ИИС — ИЗИ-ГУУ</title>
+<style>
+:root{color-scheme:dark;--ink:#f5f7ff;--muted:#aebbd6;--blue:#719bff;--line:#35415d;--dark:#090d19;--paper:#111a2d;--lime:#d9f274;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:#090d19;font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 44px));margin:auto}.header{position:sticky;top:0;z-index:5;background:rgba(9,13,25,.94);border-bottom:1px solid #ffffff22;backdrop-filter:blur(14px)}.header-row{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:inline-flex;align-items:center;gap:8px;font-size:23px;font-weight:900;letter-spacing:-1px;white-space:nowrap}.brand img{width:36px;height:36px}.brand span{color:var(--lime)}.back{color:#dce6ff;font-size:14px;font-weight:700;padding:10px 0}.back:hover,.back:focus-visible{color:#fff;text-decoration:underline;text-underline-offset:5px}
+main{overflow:hidden}.hero{position:relative;isolation:isolate;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 76% 44%,#213a82 0%,#101b35 35%,#090d19 72%)}.hero:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.32;background-image:linear-gradient(#a7bfff12 1px,transparent 1px),linear-gradient(90deg,#a7bfff12 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to right,transparent,#000)}.hero-inner{min-height:560px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr);align-items:center;gap:32px;padding:70px 0}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:#a8c1ff;font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";width:8px;height:8px;background:#719bff;box-shadow:0 0 15px #719bff}.hero h1{font-size:clamp(58px,8.8vw,112px);letter-spacing:-.07em;line-height:.91;margin:24px 0;color:#f6f8ff}.hero h1 span{display:block;color:#95afff}.lead{max-width:530px;color:#c7d2e9;font-size:clamp(17px,2vw,20px);line-height:1.6;margin:0 0 29px}.hero-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:12px 19px;background:#dce6ff;color:#101932;font-size:15px;font-weight:800;transition:background .2s,transform .2s}.button:hover{background:#fff;transform:translateY(-2px)}.secondary{color:#b4c2df;font-size:13px}.hero-art{display:grid;place-items:center;position:relative;min-height:360px}.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid #8daafa40;transform:rotate(45deg);width:min(72%,300px);aspect-ratio:1}.hero-art:after{width:min(85%,355px);border-color:#8daafa1d}.logo-frame{width:min(72%,275px);aspect-ratio:1;position:relative;z-index:1;padding:11px;border:1px solid #96b7ff75;background:#111a2d;box-shadow:0 0 90px #416bf147}.logo-frame img{display:block;width:100%;height:100%;object-fit:cover}.logo-tag{position:absolute;z-index:2;bottom:27px;right:3%;padding:8px 13px;background:#abc1ff;color:#101a35;font-size:11px;font-weight:850;letter-spacing:.13em}
+.strip{border-bottom:1px solid var(--line);background:#0e1628}.strip .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 0;color:#c5d2ed;font-size:12px;letter-spacing:.1em;text-transform:uppercase}.strip strong{color:#fff}.section{padding:84px 0}.section-head{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:end;margin-bottom:34px}.section h2{font-size:clamp(32px,4.4vw,52px);line-height:1.04;letter-spacing:-.05em;margin:12px 0 0}.section-head p{margin:0;max-width:480px;color:var(--muted);font-size:17px;line-height:1.7}.about{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line)}.about-main{padding:38px;background:#eef3ff;color:#172039}.about-main .small{color:#4464ae}.about-main h3{font-size:27px;line-height:1.15;letter-spacing:-.04em;margin:15px 0}.about-main p{color:#465572;font-size:16px;margin:0;max-width:460px}.about-side{display:grid;background:#111a2d}.about-item{padding:23px 30px;border-bottom:1px solid var(--line)}.about-item:last-child{border:0}.small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#89a5ec;font-weight:800}.about-item h3{font-size:18px;margin:5px 0}.about-item p{color:#b8c5de;margin:0;font-size:14px}.projects{background:#0e1524;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{min-height:252px;display:flex;flex-direction:column;padding:24px;border:1px solid #3d4b68;background:#151f33;transition:transform .2s,border-color .2s,background .2s}.card:hover,.card:focus-visible{transform:translateY(-4px);border-color:#8caaff;background:#192641}.card:focus-visible,.button:focus-visible{outline:3px solid #abc1ff;outline-offset:4px}.card-mark{display:flex;align-items:center;justify-content:space-between;color:#a9c0ff;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.card-mark span:last-child{font-size:22px;font-weight:400}.card h3{font-size:24px;line-height:1.15;margin:auto 0 10px;letter-spacing:-.04em}.card p{color:#b8c4da;font-size:14px;line-height:1.55;margin:0}.card-footer{display:block;color:#98b6ff;font-size:13px;font-weight:750;margin-top:22px}.join{padding:76px 0}.join-box{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:36px;background:#304d9b}.join-box:after{content:"✳";position:absolute;right:24%;top:-90px;font-size:230px;color:#ffffff0d;pointer-events:none}.join h2{font-size:clamp(27px,4vw,44px);line-height:1.05;letter-spacing:-.05em;margin:7px 0 10px}.join p{color:#dce6ff;margin:0;max-width:580px}.join .button{position:relative;z-index:1;white-space:nowrap}.footer{border-top:1px solid var(--line);padding:25px 0;color:#9aa9c4;font-size:13px}.footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer a{color:#cbd8f6;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.wrap{width:calc(100% - 30px)}.header-row{min-height:64px;gap:12px}.brand{font-size:19px}.brand img{width:30px;height:30px}.back{font-size:13px;text-align:right}.hero-inner{min-height:0;grid-template-columns:1fr;gap:16px;padding:54px 0 32px}.hero h1{font-size:clamp(51px,14vw,76px);margin:20px 0}.lead{font-size:16px}.hero-art{min-height:250px}.logo-frame{width:min(55%,210px)}.hero-art:before{width:min(58%,220px)}.hero-art:after{width:min(68%,250px)}.logo-tag{right:13%;bottom:8px}.strip .wrap{font-size:10px;letter-spacing:.06em;flex-wrap:wrap}.section{padding:58px 0}.section-head{grid-template-columns:1fr;gap:14px;margin-bottom:24px}.section-head p{font-size:15px}.about{grid-template-columns:1fr}.about-main{padding:25px}.about-side{border-top:1px solid var(--line)}.about-item{padding:21px 25px}.cards{grid-template-columns:1fr}.card{min-height:200px}.card h3{margin-top:38px}.join{padding:54px 0}.join-box{align-items:flex-start;flex-direction:column;padding:25px}.join-box:after{right:-20px;font-size:190px}.footer .wrap{display:block}.footer .wrap>*{display:block;margin:5px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.card{transition:none}.button:hover,.card:hover{transform:none}}
+.directions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;border:1px solid var(--line);background:var(--line)}.direction{display:flex;gap:20px;background:#10192a;padding:32px;transition:background .18s}.direction:hover,.direction:focus-visible{background:#172642}.direction:focus-visible,.story-copy a:focus-visible{outline:2px solid #b7ceff;outline-offset:-2px}.dir-icon{flex:none;color:#96b2ff;font-size:30px;line-height:1.2}.direction h3{margin:0;font-size:clamp(19px,2.2vw,26px);line-height:1.2;letter-spacing:-.035em;overflow-wrap:anywhere}.direction p{color:#c3cee4}.direction p{font-size:16px;margin:12px 0 18px}.dir-link{color:#afc6ff;font-size:15px;font-weight:700}.council-story{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(24px,5vw,74px)}.story-copy{max-width:60ch}.story-copy p{margin:0 0 1em;color:#c6d1e6;font-size:clamp(16px,2vw,19px)}.story-copy p:last-child{margin:0}.story-copy a{color:#b2c9ff;text-underline-offset:3px;text-decoration:underline}.story-copy a:hover{color:#fff}@media(max-width:700px){.directions{grid-template-columns:1fr}.direction{padding:22px 16px;gap:14px}.dir-icon{font-size:24px}.direction p{margin:9px 0 12px}.council-story{grid-template-columns:1fr}}
+.council-team { background: #10192b; border-bottom: 1px solid var(--line); }
+.team-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 26px; }
+.team-heading a { color: #b2c9ff; text-decoration: underline; text-underline-offset: 4px; }
+.team-portraits { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: clamp(14px,2vw,28px); }
+.team-member { margin: 0; }
+.team-member img { display: block; width: 100%; height: auto; aspect-ratio: 2/3; object-fit: cover; }
+.team-member figcaption { border-top: 3px solid #94adf3; padding-top: 12px; }
+.team-member h4 { margin: 0 0 3px; font-size: clamp(21px,2.3vw,29px); line-height: 1.2; }
+.team-member figcaption span,.team-credit { color: #bbc9e0; }
+.team-credit { margin: 20px 0 0; font-size: 13px; }
+@media(max-width:650px) {
+  .team-portraits { grid-template-columns: 1fr; gap: 28px; }
+  .team-member { width: min(100%,420px); margin-inline: auto; }
+}
+
+.member-portrait {display:block;width:100%;height:auto;aspect-ratio:2/3;overflow:hidden;background:#182033}
+.team-direction {margin-top:clamp(38px,6vw,70px)}
+.team-direction h3,.board-title {margin:0;font-size:clamp(21px,3vw,32px);line-height:1.18}
+.board-title {margin-bottom:20px}
+.member-contact {display:table;color:#b2c9ff;font-weight:650;text-decoration:underline;text-underline-offset:4px;padding:6px 0}
+.member-contact:focus-visible {outline:2px solid currentColor;outline-offset:3px}
+.team-credit a {text-decoration:underline}
+</style>
+<link rel="stylesheet" href="motion2.css">
+<link rel="stylesheet" href="edition3.css">
+</head>
+<body class="council">
+<header class="header"><div class="wrap header-row"><a class="brand" href="index.html#home" aria-label="ИЗИ-ГУУ — на главную"><img src="images/izi-mark2.svg" alt="">ИЗИ<span>— ГУУ.</span></a><a class="back" href="index.html?institute=iis#institutes">← К институту ИИС</a></div></header>
+<main>
+<section class="hero"><div class="wrap hero-inner"><div><span class="eyebrow">ИИС · студенческая жизнь</span><h1>СТУД<br>СОВЕТ <span>ИИС.</span></h1><p class="lead">Новости, афиши и интерактив от ИИСовцев для ИИСовцев. Здесь начинается студенческая жизнь за пределами пар.</p><div class="hero-actions"><a class="button" href="https://t.me/stud_iis" target="_blank" rel="noopener noreferrer">Канал студсовета <span aria-hidden="true">↗</span></a><span class="secondary">@stud_iis в Telegram</span></div></div><div class="hero-art"><div class="logo-frame"><img src="images/stud-iis-logo2.jpg" alt="Эмблема Telegram-канала Студенческого совета ИИС"></div><span class="logo-tag">STUD IIS / ГУУ</span></div></div></section>
+<div class="strip"><div class="wrap"><strong>СТУДЕНЧЕСКИЙ СОВЕТ ИИС</strong><span>ЛЮДИ · СОБЫТИЯ · ИНИЦИАТИВЫ</span></div></div>
+<section class="section projects" id="about-council" aria-labelledby="council-title"><div class="wrap council-story">
+<div><span class="eyebrow">О совете</span><h2 id="council-title">Знакомься:<br>студсовет ИИС</h2></div>
+<div class="story-copy"><p>Видел в корпусе ребят в серо-голубых зипках? С этой детали совет начинает <a href="https://t.me/stud_iis/247" target="_blank" rel="noopener noreferrer">знакомство с командой</a>. Это студенты Института информационных систем, которые вместе устраивают события и помогают другим в них участвовать.</p>
+<p>У каждого здесь своё дело. Одни придумывают творческие проекты, другие снимают их и пишут о том, что получилось. Кто-то собирает команду на соревнования, а кто-то организует волонтёрский выезд или сбор помощи.</p>
+<p>Начать можно с чата: в <a href="https://t.me/stud_iis/268" target="_blank" rel="noopener noreferrer">рассказе о направлениях</a> совет приглашает заглянуть сразу в несколько. Ниже — ссылки на все четыре.</p></div>
+</div></section>
+<section class="section council-team" id="council-team" aria-labelledby="team-title">
+  <div class="wrap">
+    <div class="team-heading"><h2 id="team-title">Команда студсовета ИИС</h2><a href="https://t.me/stud_iis/264" target="_blank" rel="noopener noreferrer">Пост команды ↗</a></div>
+    <h3 class="board-title">Правление</h3>
+    <div class="team-portraits">
+      <figure class="team-member">
+        <img src="images/iis-pravdin.jpg" alt="Портрет: Павел Правдин" width="532" height="800" loading="lazy">
+        <figcaption><h4>Павел Правдин</h4><span>Врио председателя СС ИИС</span><a class="member-contact" href="https://t.me/paxanac" target="_blank" rel="noopener noreferrer">@paxanac</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-tsveleva.jpg" alt="Портрет: Олеся Цвелёва" width="532" height="800" loading="lazy">
+        <figcaption><h4>Олеся Цвелёва</h4><span>Заместитель председателя СС ИИС</span><a class="member-contact" href="https://t.me/lesssssenok" target="_blank" rel="noopener noreferrer">@lesssssenok</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-polyakov.jpg" alt="Портрет: Юрий Поляков" width="532" height="800" loading="lazy">
+        <figcaption><h4>Юрий Поляков</h4><span>Заместитель председателя СС ИИС</span><a class="member-contact" href="https://t.me/Shoriext" target="_blank" rel="noopener noreferrer">@Shoriext</a></figcaption>
+      </figure>
+    </div>
+    <section class="team-direction"><div class="team-heading"><h3>Культурно-массовое направление</h3><a href="https://t.me/stud_iis/250" target="_blank" rel="noopener noreferrer">Пост команды ↗</a></div>
+    <div class="team-portraits">
+      <figure class="team-member">
+        <img src="images/iis-team-251.jpg" alt="Портрет: Вита Кобычева" loading="lazy" width="532" height="800">
+        <figcaption><h4>Вита Кобычева</h4><span>Руководитель направления</span><a class="member-contact" href="https://t.me/vitooshaaa" target="_blank" rel="noopener noreferrer">@vitooshaaa</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-team-252.jpg" alt="Портрет: Михаил Агафонов" loading="lazy" width="532" height="800">
+        <figcaption><h4>Михаил Агафонов</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/godtimey" target="_blank" rel="noopener noreferrer">@godtimey</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-team-253.jpg" alt="Портрет: Алиса Николаева" loading="lazy" width="532" height="800">
+        <figcaption><h4>Алиса Николаева</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/mayeneor" target="_blank" rel="noopener noreferrer">@mayeneor</a></figcaption>
+      </figure>
+    </div></section>
+    <section class="team-direction"><div class="team-heading"><h3>Медиа</h3><a href="https://t.me/stud_iis/254" target="_blank" rel="noopener noreferrer">Пост команды ↗</a></div>
+    <div class="team-portraits">
+      <figure class="team-member">
+        <img src="images/iis-team-255.jpg" alt="Портрет: Алевтина Марьенко" loading="lazy" width="532" height="800">
+        <figcaption><h4>Алевтина Марьенко</h4><span>Руководитель направления</span><a class="member-contact" href="https://t.me/vvaeii" target="_blank" rel="noopener noreferrer">@vvaeii</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-team-256.jpg" alt="Портрет: Диляра Млюкова" loading="lazy" width="532" height="800">
+        <figcaption><h4>Диляра Млюкова</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/lonawarey" target="_blank" rel="noopener noreferrer">@lonawarey</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-team-257.jpg" alt="Портрет: Милана Стелько" loading="lazy" width="532" height="800">
+        <figcaption><h4>Милана Стелько</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/Milankaaa00" target="_blank" rel="noopener noreferrer">@Milankaaa00</a></figcaption>
+      </figure>
+    </div></section>
+    <section class="team-direction"><div class="team-heading"><h3>Спортивное направление</h3><a href="https://t.me/stud_iis/258" target="_blank" rel="noopener noreferrer">Пост команды ↗</a></div>
+    <div class="team-portraits">
+      <figure class="team-member">
+        <svg class="member-portrait" viewBox="299 291 242 363" role="img" aria-label="Портрет: Владимир Никитин"><image href="images/iis-sport-team.jpg" width="798" height="800"/></svg>
+        <figcaption><h4>Владимир Никитин</h4><span>Руководитель направления</span><a class="member-contact" href="https://t.me/vovan66n" target="_blank" rel="noopener noreferrer">@vovan66n</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <svg class="member-portrait" viewBox="551 239 164 246" role="img" aria-label="Портрет: Артём Иванов"><image href="images/iis-sport-team.jpg" width="798" height="800"/></svg>
+        <figcaption><h4>Артём Иванов</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/artemida_dranka" target="_blank" rel="noopener noreferrer">@artemida_dranka</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <svg class="member-portrait" viewBox="73 228 170 255" role="img" aria-label="Портрет: Алексей Пахомкин"><image href="images/iis-sport-team.jpg" width="798" height="800"/></svg>
+        <figcaption><h4>Алексей Пахомкин</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/whokillmind" target="_blank" rel="noopener noreferrer">@whokillmind</a></figcaption>
+      </figure>
+    </div></section>
+    <section class="team-direction"><div class="team-heading"><h3>Социально-патриотическое направление</h3><a href="https://t.me/stud_iis/261" target="_blank" rel="noopener noreferrer">Пост команды ↗</a></div>
+    <div class="team-portraits">
+      <figure class="team-member">
+        <img src="images/iis-team-262.jpg" alt="Портрет: Юлиана Никулина" loading="lazy" width="532" height="800">
+        <figcaption><h4>Юлиана Никулина</h4><span>Руководитель направления</span><a class="member-contact" href="https://t.me/yunaivee" target="_blank" rel="noopener noreferrer">@yunaivee</a></figcaption>
+      </figure>
+      <figure class="team-member">
+        <img src="images/iis-team-263.jpg" alt="Портрет: Надежда Быкова" loading="lazy" width="532" height="800">
+        <figcaption><h4>Надежда Быкова</h4><span>Заместитель руководителя</span><a class="member-contact" href="https://t.me/naduxxxa" target="_blank" rel="noopener noreferrer">@naduxxxa</a></figcaption>
+      </figure>
+    </div></section>
+    <p class="team-credit">Фото — @bgtrrrva · Обработка — @vvaeii. Портреты спортивного направления — из <a href="https://t.me/stud_iis/190" target="_blank" rel="noopener noreferrer">публикации о составе команды</a>.</p>
+  </div>
+</section>
+<section class="section" id="directions"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Направления ИИС</span><h2>Чем живёт<br>студсовет</h2></div><p>Четыре команды — четыре способа поучаствовать в жизни ИИС. Выбирай направление: у каждого есть свой чат.</p></div><div class="directions"><a class="direction" href="https://t.me/kultmyaso228" target="_blank" rel="noopener noreferrer"><span aria-hidden="true" class="dir-icon">✳</span><div><h3>Культурно-массовое</h3><p>Сцена, декор, сценарии и творческие вечера. Сюда, если хочется придумать событие и увидеть, как оно собирает зал.</p><span class="dir-link">В чат направления ↗</span></div></a>
+<a class="direction" href="https://t.me/+ObjEprpa0NpjOGMy" target="_blank" rel="noopener noreferrer"><span aria-hidden="true" class="dir-icon">◉</span><div><h3>Медиа</h3><p>Снимать, писать, собирать кадры в историю. Команда рассказывает о событиях ИИС через фотографии, тексты и дизайн.</p><span class="dir-link">В чат направления ↗</span></div></a>
+<a class="direction" href="https://t.me/+catUkPWBdXBkM2M6" target="_blank" rel="noopener noreferrer"><span aria-hidden="true" class="dir-icon">↗</span><div><h3>Спортивное</h3><p>Найти команду, выйти на старт и выступить за ИИС. Здесь объединяются студенты, которым интересны тренировки и соревнования.</p><span class="dir-link">В чат направления ↗</span></div></a>
+<a class="direction" href="https://t.me/+0tbKRqL5ifRhMjBi" target="_blank" rel="noopener noreferrer"><span aria-hidden="true" class="dir-icon">✚</span><div><h3>Социально-патриотическое</h3><p>Волонтёрские выезды, благотворительные акции и сбор помощи. Здесь можно узнать, кому нужна поддержка и как подключиться.</p><span class="dir-link">В чат направления ↗</span></div></a></div></div></section>
+<section class="join"><div class="wrap"><div class="join-box"><div><span class="small" style="color:#dce6ff">На связи</span><h2>Будь частью ИИС</h2><p>За свежими новостями, анонсами и возможностями участия заглядывай в Telegram студсовета.</p></div><a class="button" href="https://t.me/stud_iis" target="_blank" rel="noopener noreferrer">Открыть канал ↗</a></div></div></section>
+</main>
+<footer class="footer"><div class="wrap"><span>ИЗИ-ГУУ · ИИС · Студ</span><span>По материалам <a href="https://t.me/stud_iis" target="_blank" rel="noopener noreferrer">Студенческого совета ИИС</a></span></div></footer>
+<script src="motion2.js"></script>
+</body></html>

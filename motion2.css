@@ -1,0 +1,38 @@
+/* Shared motion for the catalogue and teacher pages. */
+:root { --motion-ease: cubic-bezier(.22,.75,.22,1); }
+.instPanel.open { animation: none; }
+.motion-panel-running { overflow: hidden; }
+body.motion-modal-open { overflow: hidden; }
+.page-transitioning main { pointer-events: none; }
+.institute-card .inst-arrow { transition: transform .25s var(--motion-ease); }
+.institute-card.active .inst-arrow { transform: rotate(90deg); }
+.teacher:focus-visible,.institute-card:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  main { animation: page-arrive .36s var(--motion-ease) both; }
+  .motion-wait { opacity: 0; }
+  .hero-main .pill { animation: item-arrive .45s .06s both; }
+  .hero-main h1 { animation: item-arrive .55s .12s both; }
+  .hero-main p { animation: item-arrive .55s .2s both; }
+  .institute-card,.teacher,.about-card,.fact,.rating-box,.criterion,.review-card,.btn {
+    transition: transform .2s var(--motion-ease),box-shadow .2s ease,border-color .2s ease,background-color .2s ease;
+  }
+  .institute-card:active,.teacher:active { transform: scale(.985); }
+  .btn:active { transform: translateY(1px); }
+  .leaflet-popup-content-wrapper { animation: popup-arrive .22s var(--motion-ease); }
+  @media (hover: hover) {
+    .institute-card:hover,.teacher:hover { transform: translateY(-4px); box-shadow: 0 16px 30px #07162a24; }
+    .about-card:hover,.fact:hover,.rating-box:hover,.criterion:hover,.review-card:hover { transform: translateY(-2px); }
+    .btn:hover { transform: translateY(-2px); }
+  }
+  @keyframes page-arrive { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  @keyframes item-arrive { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes popup-arrive { from { opacity: 0; transform: translateY(6px) scale(.97); } to { opacity: 1; transform: none; } }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  main,.hero-main .pill,.hero-main h1,.hero-main p,.profile,.brand-mark,.leaflet-popup-content-wrapper { animation: none !important; }
+  .motion-wait { opacity: 1 !important; }
+  .institute-card,.teacher,.about-card,.fact,.rating-box,.criterion,.review-card,.btn,.inst-arrow { transition: none !important; transform: none !important; }
+}

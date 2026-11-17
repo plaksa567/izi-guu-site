@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="ИОМ — отраслевой менеджмент и логистика">
+<defs><linearGradient id="yard" x2="0" y2="1"><stop stop-color="#b9c9c4"/><stop offset=".62" stop-color="#d7d4c5"/><stop offset="1" stop-color="#66736f"/></linearGradient></defs>
+<rect width="720" height="270" fill="url(#yard)"/>
+<path d="M0 176 720 139v131H0Z" fill="#555e5c"/>
+<path d="M0 218 720 182M0 241 720 205" stroke="#d5c8a6" stroke-width="3" stroke-dasharray="22 14" opacity=".75"/>
+<rect x="36" y="46" width="198" height="133" fill="#b95f45"/><path d="M54 46v133m36-133v133m36-133v133m36-133v133m36-133v133" stroke="#e4a17b" stroke-width="4" opacity=".6"/>
+<rect x="255" y="25" width="205" height="146" fill="#557a7c"/><path d="M278 25v146m36-146v146m36-146v146m36-146v146m36-146v146" stroke="#b1c7b9" stroke-width="4" opacity=".52"/>
+<rect x="480" y="59" width="193" height="111" fill="#d3a45f"/><path d="M500 59v111m36-111v111m36-111v111m36-111v111m36-111v111" stroke="#f1d29a" stroke-width="4" opacity=".6"/>
+<rect x="42" y="67" width="65" height="27" rx="4" fill="#f0e8d8"/><text x="54" y="87" font-family="Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="1.2" fill="#415963">ИОМ</text>
+<path d="M270 170h153v32H270z" fill="#414b49"/>
+<circle cx="316" cy="209" r="23" fill="#2e3636"/><circle cx="316" cy="209" r="10" fill="#c4b18f"/>
+<circle cx="408" cy="209" r="23" fill="#2e3636"/><circle cx="408" cy="209" r="10" fill="#c4b18f"/>
+<path d="M278 171h17v-48h32l39 45 21-33h31v36h-16v-21h-9l-19 28h-58l-21-33h-9v49h-8Z" fill="#d9a342" stroke="#6f6044" stroke-width="4" stroke-linejoin="round"/>
+<rect x="359" y="142" width="24" height="22" rx="3" fill="#ced8d1"/>
+<path d="M278 122h24m101 8h34m-126 64h48" stroke="#46514d" stroke-width="4"/>
+<rect x="537" y="182" width="42" height="32" fill="#b38355"/><rect x="584" y="174" width="42" height="40" fill="#c19361"/><rect x="631" y="187" width="42" height="27" fill="#a9784e"/>
+<path d="M0 157h720" stroke="#f2eee2" stroke-opacity=".7" stroke-width="3"/>
+</svg>

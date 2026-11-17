@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-label="ИМ — маркетинг и бренды">
+<defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#f2e3cc"/><stop offset="1" stop-color="#d8c8b5"/></linearGradient></defs>
+<rect width="720" height="270" fill="url(#paper)"/>
+<path d="M0 198 720 167v103H0Z" fill="#ad7659"/>
+<rect x="80" y="26" width="278" height="188" rx="7" fill="#f7f0e4" transform="rotate(-4 80 26)"/>
+<rect x="111" y="55" width="125" height="111" fill="#d36d57" transform="rotate(-4 111 55)"/>
+<path d="M126 72h92v19h-92zm0 30h58v11h-58zm0 23h78v12h-78" fill="#f1d4b3" opacity=".9"/>
+<circle cx="306" cy="91" r="36" fill="#d8b95f"/><circle cx="306" cy="91" r="19" fill="#6b8990"/>
+<path d="M264 148h61m-61 14h78m-78 14h48" stroke="#8d765d" stroke-width="4" stroke-linecap="round"/>
+<rect x="412" y="34" width="225" height="142" rx="5" fill="#e8b96e" transform="rotate(4 412 34)"/>
+<path d="M438 62h79v96h-79Z" fill="#f5eee0"/><path d="M526 54h84v42h-84Z" fill="#557f83"/><path d="M526 103h84v55h-84Z" fill="#d27358"/>
+<path d="M458 81h39m-39 13h39m-39 13h29" stroke="#aa8c64" stroke-width="3"/>
+<rect x="479" y="180" width="110" height="31" rx="5" fill="#e6e5d8" transform="rotate(-3 479 180)"/>
+<text x="500" y="202" font-family="Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="1.5" fill="#4b6669" transform="rotate(-3 500 202)">ИМ</text>
+<path d="M62 218 142 198l7 11-79 21z" fill="#435e68"/><path d="m141 198 24-12-16 23" fill="#d8b95f"/>
+<path d="M355 223c24-27 49-35 74-26l-25 46h-58Z" fill="#d6a16a"/>
+<rect x="624" y="205" width="40" height="32" rx="3" fill="#e9dbc1" transform="rotate(9 624 205)"/>
+<path d="M633 216h19m-17 7h20m-17 7h12" stroke="#8b7b67" stroke-width="2"/>
+</svg>
